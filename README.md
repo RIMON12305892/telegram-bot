@@ -1,12 +1,7 @@
- # bot.py
- import telebot
-import os
-
-TOKEN = os.getenv("8348969341:AAF_8IMb1SEA4IppGsjKUV4LuFvZ_-IJX5I")
-bot = telebot.TeleBot(8348969341:AAF_8IMb1SEA4IppGsjKUV4LuFvZ_-IJX5I)
-
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id, "👋 Привіт! Я твій бот.")
-
-bot.polling()
+git init
+git add .
+git commit -m "Initial commit: telegram bot"
+# додай віддалений репо з GitHub (замінити <user> і <repo>)
+git remote add origin https://github.com/<youruser>/<yourrepo>.git
+git branch -M main
+git push -u origin main
